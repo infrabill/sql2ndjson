@@ -1,6 +1,8 @@
 # sql2ndjson
 Takes mysql tables, converts them to Newline Delimited JSON, then uploads them to s3. The ndjson files will be stored with in the root directory before they are uploaded to s3.
 
+Logs in /var/log as this was built to run on a linux based host.
+
 ## Built With
 - pandas=1.3.5
 - mysql-connector-python=8.0.27
